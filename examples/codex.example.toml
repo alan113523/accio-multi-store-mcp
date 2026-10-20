@@ -1,0 +1,17 @@
+# Merge these sections into your existing client configuration manually.
+# Adjust absolute paths; no credential values belong here.
+[mcp_servers.accio_shop_alpha]
+command = "node"
+args = ["C:/path/to/accio-multi-store-mcp/server.mjs", "shop_alpha"]
+enabled_tools = ["identity", "account_summary", "publishing_categories"]
+startup_timeout_sec = 30
+tool_timeout_sec = 240
+env_vars = ["HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "NO_PROXY", "http_proxy", "https_proxy", "all_proxy", "no_proxy", "ACCIO_PWSH"]
+
+[mcp_servers.accio_shop_beta]
+command = "node"
+args = ["C:/path/to/accio-multi-store-mcp/server.mjs", "shop_beta"]
+enabled_tools = ["identity", "account_summary", "publishing_categories"]
+startup_timeout_sec = 30
+tool_timeout_sec = 240
+env_vars = ["HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "NO_PROXY", "http_proxy", "https_proxy", "all_proxy", "no_proxy", "ACCIO_PWSH"]

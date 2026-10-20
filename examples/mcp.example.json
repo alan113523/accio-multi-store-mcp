@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "accio_shop_alpha": {
+      "command": "node",
+      "args": ["C:/path/to/accio-multi-store-mcp/server.mjs", "shop_alpha"]
+    },
+    "accio_shop_beta": {
+      "command": "node",
+      "args": ["C:/path/to/accio-multi-store-mcp/server.mjs", "shop_beta"]
+    }
+  }
+}

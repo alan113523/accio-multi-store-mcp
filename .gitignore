@@ -1,0 +1,25 @@
+# Only source, synthetic fixtures and example configuration belong in Git.
+node_modules/
+.local/
+state/
+outputs/
+coverage/
+.env
+.env.*
+!.env.example
+*.dpapi
+*.enc
+*.jsonl
+*.log
+*.bak
+*.tmp
+stores.json
+bindings.json
+tool-catalog.json
+credentials*
+gateway-cli.json
+connected-accounts.json
+current-space.json
+.accio/
+.DS_Store
+Thumbs.db

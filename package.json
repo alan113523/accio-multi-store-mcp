@@ -1,0 +1,16 @@
+{
+  "name": "accio-multi-store-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only MCP channels bound to existing Accio store conversations",
+  "type": "module",
+  "license": "MIT",
+  "repository": "github:alan113523/accio-multi-store-mcp",
+  "engines": { "node": ">=22" },
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check channel.mjs && node --check server.mjs"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.1" }
+}

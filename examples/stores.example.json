@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "stores": {
+    "shop_alpha": {
+      "label": "Shop Alpha",
+      "loginId": "REPLACE_WITH_LOGIN_ID_ALPHA",
+      "name": "REPLACE_WITH_EXISTING_CONVERSATION_ALPHA",
+      "aliId": "REPLACE_WITH_ADMIN_ALI_ID_ALPHA"
+    },
+    "shop_beta": {
+      "label": "Shop Beta",
+      "loginId": "REPLACE_WITH_LOGIN_ID_BETA",
+      "name": "REPLACE_WITH_EXISTING_CONVERSATION_BETA",
+      "aliId": "REPLACE_WITH_ADMIN_ALI_ID_BETA"
+    }
+  }
+}
