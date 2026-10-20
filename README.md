@@ -38,7 +38,7 @@ Read-only MCP channels for multiple stores, bound to existing Accio conversation
 | `account_summary` | `data_advisor_account_summary` | 按时间范围查询员工经营效果，调用前后核对主账号 |
 | `publishing_categories` | `query_user_category` | 只读类目元数据；不能据此证明实际发品权限或可发布类目范围 |
 
-不提供商品创建、保存草稿、正式发布、广告修改、订单写入或授权管理。
+可用业务能力取决于 Accio 开放的 MCP 接口及账号授权。当前版本已接入上表中的只读工具；商品创建、草稿保存、正式发布、广告修改、订单写入和授权管理等能力，可在对应接口开放且具备授权时继续适配和验证。
 
 ## 快速开始
 
