@@ -96,6 +96,7 @@ node channel.mjs call shop_alpha subaccount_query '{}'
 每个店铺配置一个独立 `server.mjs <通道别名>` 进程。
 Codex 示例见 [examples/codex.example.toml](examples/codex.example.toml)，
 配置格式参见 [Codex MCP 官方文档](https://learn.chatgpt.com/docs/extend/mcp?surface=cli)。
+若要了解不运行桌面端的独立调用方式，见 [独立 OAuth 云端只读验证](docs/CLOUD-OAUTH.md)；本仓库当前 MCP 仍使用桌面网关。
 客户端可能需要刷新或重启后才能显示新工具。
 
 调用 `account_summary` 的参数示例：
